@@ -29,6 +29,12 @@ function readWatchlist() {
   return JSON.parse(fs.readFileSync(file, "utf8"));
 }
 
+function readJsonList(name) {
+  const file = path.join(ROOT, "data", name);
+  if (!fs.existsSync(file)) return [];
+  return JSON.parse(fs.readFileSync(file, "utf8"));
+}
+
 function mime(file) {
   const ext = path.extname(file);
   return (
@@ -67,6 +73,16 @@ const server = http.createServer(async (req, res) => {
 
   if (req.method === "GET" && url.pathname === "/api/watchlist") {
     sendJson(res, 200, { watchlist: readWatchlist() });
+    return;
+  }
+
+  if (req.method === "GET" && url.pathname === "/api/u30") {
+    sendJson(res, 200, { u30: readJsonList("u30.json") });
+    return;
+  }
+
+  if (req.method === "GET" && url.pathname === "/api/u40") {
+    sendJson(res, 200, { u40: readJsonList("u40.json") });
     return;
   }
 

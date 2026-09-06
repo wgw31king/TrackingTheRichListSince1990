@@ -2,11 +2,15 @@ const pages = {
   news: document.getElementById("page-news"),
   wealth: document.getElementById("page-wealth"),
   age: document.getElementById("page-age"),
+  u30: document.getElementById("page-u30"),
+  u40: document.getElementById("page-u40"),
   watch: document.getElementById("page-watch")
 };
 
 let people = [];
 let watchlist = [];
+let u30list = [];
+let u40list = [];
 let newsDoc = { items: [] };
 
 function ageOf(iso) {
@@ -129,6 +133,33 @@ function personCard(person) {
   </article>`;
 }
 
+function founderCard(person) {
+  const age = person.ageOnList != null ? person.ageOnList : ageOf(person.birthDate);
+  const worthZh = person.estimatedWorthZh || "预估身价：未公开";
+  const worthEn = person.estimatedWorthEn || "Estimated net worth: unpublished";
+  const amount =
+    person.netWorthUsd != null && person.displayAmount != null
+      ? `${person.displayAmount} ${person.displayUnit} · ${person.displayAmountEn}`
+      : "身价未公开 · Net worth not published";
+  return `<article class="card">
+    <div class="meta">
+      <span class="tag ${person.tier === "linked_wealth" ? "self" : "wait"}">${person.band || "U"}</span>
+      <span>榜单年龄 ${age}</span>
+      <span>${person.company || ""}</span>
+      ${tagLine(person)}
+    </div>
+    <h2>${person.nameZh}${person.nameEn && person.nameEn !== person.nameZh ? " / " + person.nameEn : ""}</h2>
+    <p class="amount">${amount}</p>
+    <p>${worthZh}</p>
+    <p class="en">${worthEn}</p>
+    <div class="pair">
+      <p>${person.businessZh}</p>
+      <p class="en">${person.businessEn}</p>
+    </div>
+    <p class="meta">${person.role || ""} · ${person.industryZh || ""} · ${person.source || ""}</p>
+  </article>`;
+}
+
 function watchCard(person) {
   const age = person.ageOnList != null ? person.ageOnList : ageOf(person.birthDate);
   return `<article class="card">
@@ -159,24 +190,38 @@ function renderPeople() {
     .sort((a, b) => String(b.birthDate).localeCompare(String(a.birthDate)));
   document.getElementById("wealth-list").innerHTML = byWealth.map(personCard).join("");
   document.getElementById("age-list").innerHTML = byAge.map(personCard).join("");
+  document.getElementById("u30-list").innerHTML = u30list
+    .slice()
+    .sort((a, b) => (a.ageOnList || 99) - (b.ageOnList || 99))
+    .map(founderCard)
+    .join("");
+  document.getElementById("u40-list").innerHTML = u40list
+    .slice()
+    .sort((a, b) => (a.ageOnList || 99) - (b.ageOnList || 99))
+    .map(founderCard)
+    .join("");
   document.getElementById("watch-list").innerHTML = watchlist
     .slice()
     .sort((a, b) => (a.ageOnList || 99) - (b.ageOnList || 99))
     .map(watchCard)
     .join("");
   document.getElementById("counts").innerHTML =
-    `富豪榜 ${byWealth.length} 人 · 观察名单 ${watchlist.length} 人<br/>Wealth list ${byWealth.length} · Watchlist ${watchlist.length}`;
+    `富豪榜 ${byWealth.length} · U30 ${u30list.length} · U40 ${u40list.length} · 观察 ${watchlist.length}<br/>Wealth ${byWealth.length} · U30 ${u30list.length} · U40 ${u40list.length} · Watch ${watchlist.length}`;
 }
 
 async function loadAll() {
-  const [p, w, n] = await Promise.all([
+  const [p, w, n, u30, u40] = await Promise.all([
     fetch("/api/people"),
     fetch("/api/watchlist"),
-    fetch("/api/news")
+    fetch("/api/news"),
+    fetch("/api/u30"),
+    fetch("/api/u40")
   ]);
   people = (await p.json()).people || [];
   watchlist = (await w.json()).watchlist || [];
   newsDoc = await n.json();
+  u30list = (await u30.json()).u30 || [];
+  u40list = (await u40.json()).u40 || [];
   renderPeople();
   renderNews();
   if (newsDoc.lastRefreshAt) {

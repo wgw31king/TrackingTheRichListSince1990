@@ -11,7 +11,8 @@
     <header>
       <h1>1990年后富豪追踪</h1>
       <p class="lede">A local ledger for people born in 1990 or later, including Gen Z.</p>
-      <p class="lede">有身价的进富豪榜；胡润U40等创业先锋、身价未公开的进观察名单。消息可每日刷新。</p>
+      <p class="lede">有身价的进富豪榜；U30/U40 看创业成功与做事介绍，不等于自动有身价。消息可每日刷新。</p>
+      <p class="lede">Wealth boards need published net worth; U30/U40 boards track founders’ work and estimated NW if any.</p>
       <p class="lede" id="counts">加载中…</p>
     </header>
 
@@ -19,7 +20,9 @@
       <button data-page="news" class="active">榜单消息</button>
       <button data-page="wealth">富豪榜 · 按身价</button>
       <button data-page="age">富豪榜 · 按年龄</button>
-      <button data-page="watch">观察名单 · U40等</button>
+      <button data-page="u30">创业榜 · U30</button>
+      <button data-page="u40">创业榜 · U40</button>
+      <button data-page="watch">观察名单</button>
     </nav>
 
     <section id="page-news">
@@ -40,9 +43,21 @@
       <div id="age-list"></div>
     </section>
 
+    <section id="page-u30" class="hidden">
+      <p class="lede">U30 创业专区：不论谁后来更有钱，先记他们做什么（约100–200字），并标预估/对照身价；创业成功≠请假条，也不等于已进富豪榜。</p>
+      <p class="lede">U30 founder board: ~100–200-char bios of what they build, plus estimated NW if known. Entrepreneur success ≠ a published fortune.</p>
+      <div id="u30-list"></div>
+    </section>
+
+    <section id="page-u40" class="hidden">
+      <p class="lede">U40 创业专区：与 U30 同一套规则；仅保留约1990年后出生者。有权威身价的会对照富豪榜，其余标未公开。</p>
+      <p class="lede">U40 founder board with the same rules; keep ~1990+ births only. Cross-check published wealth when available.</p>
+      <div id="u40-list"></div>
+    </section>
+
     <section id="page-watch" class="hidden">
-      <p class="lede">胡润2025 U40中国创业先锋里，年龄对应约1990年后出生、但<strong>尚未有公开身价</strong>的人。这不是富豪榜，是观察雷达。</p>
-      <p class="lede">Hurun China Under40s 2025 founders born ~1990+, with no published net worth yet. Watchlist, not a wealth ranking.</p>
+      <p class="lede">尚未归入 U30/U40 专区、或仍待补全的观察项。不是富豪榜。</p>
+      <p class="lede">Residual watch items not yet folded into U30/U40 boards. Not a wealth ranking.</p>
       <div id="watch-list"></div>
     </section>
   </div>
