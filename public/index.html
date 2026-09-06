@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>1990年后富豪追踪</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>1990年后富豪追踪</h1>
+      <p class="lede">A local ledger for people born in 1990 or later, including Gen Z.</p>
+      <p class="lede">有身价的进富豪榜；胡润U40等创业先锋、身价未公开的进观察名单。消息可每日刷新。</p>
+      <p class="lede" id="counts">加载中…</p>
+    </header>
+
+    <nav>
+      <button data-page="news" class="active">榜单消息</button>
+      <button data-page="wealth">富豪榜 · 按身价</button>
+      <button data-page="age">富豪榜 · 按年龄</button>
+      <button data-page="watch">观察名单 · U40等</button>
+    </nav>
+
+    <section id="page-news">
+      <div class="toolbar">
+        <p id="news-status">尚未刷新。 / Not refreshed in this session.</p>
+        <button class="primary" id="refresh">刷新消息</button>
+      </div>
+      <div id="news-list"></div>
+    </section>
+
+    <section id="page-wealth" class="hidden">
+      <p class="lede">已核实身价的人，按纸面身价排序。来源含福布斯实时/年榜、胡润百富与U40企业家财富、新财富等。</p>
+      <div id="wealth-list"></div>
+    </section>
+
+    <section id="page-age" class="hidden">
+      <p class="lede">同一批「有身价」的人，按出生日期排序，年轻的在前。</p>
+      <div id="age-list"></div>
+    </section>
+
+    <section id="page-watch" class="hidden">
+      <p class="lede">胡润2025 U40中国创业先锋里，年龄对应约1990年后出生、但<strong>尚未有公开身价</strong>的人。这不是富豪榜，是观察雷达。</p>
+      <p class="lede">Hurun China Under40s 2025 founders born ~1990+, with no published net worth yet. Watchlist, not a wealth ranking.</p>
+      <div id="watch-list"></div>
+    </section>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>

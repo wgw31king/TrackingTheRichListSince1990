@@ -1,0 +1,156 @@
+{
+  "lastRefreshAt": "2026-09-06T15:21:45.124Z",
+  "cutoffAt": "2026-09-06T15:21:45.124Z",
+  "items": [
+    {
+      "id": "live-aHR0cHM6Ly93d3cuZm9yYmVz",
+      "source": "forbes",
+      "publishedAt": "2026-09-06T15:21:45.124Z",
+      "fetchedAt": "2026-09-06T15:21:45.124Z",
+      "titleZh": "亿万富豪s",
+      "titleEn": "Billionaires",
+      "summaryZh": "福布斯官方渠道出现这条榜单相关消息，数字仍以成交或年榜为准。",
+      "summaryEn": "Forbes published this list-related item; priced deals and annual lists still govern the numbers.",
+      "url": "https://www.forbes.com/worlds-billionaires/",
+      "personIds": []
+    },
+    {
+      "id": "live-aHR0cHM6Ly93d3cuZm9yYmVz",
+      "source": "forbes",
+      "publishedAt": "2026-09-06T15:21:45.124Z",
+      "fetchedAt": "2026-09-06T15:21:45.124Z",
+      "titleZh": "self-made score",
+      "titleEn": "self-made score",
+      "summaryZh": "福布斯官方渠道出现这条榜单相关消息，数字仍以成交或年榜为准。",
+      "summaryEn": "Forbes published this list-related item; priced deals and annual lists still govern the numbers.",
+      "url": "https://www.forbes.com/sites/gigizamora/2024/10/01/the-2024-forbes-400-self-made-billionaire-score-from-bootstrappers-to-silver-spooners/",
+      "personIds": []
+    },
+    {
+      "id": "live-aHR0cHM6Ly93d3cuZm9yYmVz",
+      "source": "forbes",
+      "publishedAt": "2026-09-06T15:21:45.124Z",
+      "fetchedAt": "2026-09-06T15:21:45.124Z",
+      "titleZh": "Jensen Huang’s net worth Nears $200 Billion After Nvidia Says It Will Acquire Hugging Face",
+      "titleEn": "Jensen Huang’s Net Worth Nears $200 Billion After Nvidia Says It Will Acquire Hugging Face",
+      "summaryZh": "福布斯官方渠道出现这条榜单相关消息，数字仍以成交或年榜为准。",
+      "summaryEn": "Forbes published this list-related item; priced deals and annual lists still govern the numbers.",
+      "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/09/04/jensen-huangs-net-worth-nears-200-billion-after-nvidia-says-it-will-acquire-hugging-face/",
+      "personIds": []
+    },
+    {
+      "id": "live-aHR0cHM6Ly93d3cuZm9yYmVz",
+      "source": "forbes",
+      "publishedAt": "2026-09-06T15:21:45.124Z",
+      "fetchedAt": "2026-09-06T15:21:45.124Z",
+      "titleZh": "self-made Score",
+      "titleEn": "Self-Made Score",
+      "summaryZh": "福布斯官方渠道出现这条榜单相关消息，数字仍以成交或年榜为准。",
+      "summaryEn": "Forbes published this list-related item; priced deals and annual lists still govern the numbers.",
+      "url": "https://www.forbes.com/sites/jonathanponciano/2020/09/08/self-made-score/",
+      "personIds": []
+    },
+    {
+      "id": "live-aHR0cHM6Ly93d3cuZm9yYmVz",
+      "source": "forbes",
+      "publishedAt": "2026-09-06T15:21:45.124Z",
+      "fetchedAt": "2026-09-06T15:21:45.124Z",
+      "titleZh": "America's Richest self-made Women",
+      "titleEn": "America's Richest Self-Made Women",
+      "summaryZh": "福布斯官方渠道出现这条榜单相关消息，数字仍以成交或年榜为准。",
+      "summaryEn": "Forbes published this list-related item; priced deals and annual lists still govern the numbers.",
+      "url": "https://www.forbes.com/self-made-women/",
+      "personIds": []
+    },
+    {
+      "id": "live-aHR0cHM6Ly93d3cuZm9yYmVz",
+      "source": "forbes",
+      "publishedAt": "2026-09-06T15:21:45.124Z",
+      "fetchedAt": "2026-09-06T15:21:45.124Z",
+      "titleZh": "Forbes 400",
+      "titleEn": "Forbes 400",
+      "summaryZh": "福布斯官方渠道出现这条榜单相关消息，数字仍以成交或年榜为准。",
+      "summaryEn": "Forbes published this list-related item; priced deals and annual lists still govern the numbers.",
+      "url": "https://www.forbes.com/forbes-400/",
+      "personIds": []
+    },
+    {
+      "id": "seed-unitree-ipo",
+      "source": "forbes",
+      "publishedAt": "2026-08-07T02:00:00.000Z",
+      "titleZh": "宇树科技发行价落地，王兴兴持股市值约183亿元",
+      "titleEn": "Unitree’s IPO price is set; Wang Xingxing’s stake is about CNY 18.3 billion",
+      "summaryZh": "发行价150.80元，公司上市市值约610亿元；这是成交口径，不是抖音口播。",
+      "summaryEn": "The issue price is CNY 150.80 and the listing value is about CNY 61 billion; this is a priced deal, not a short-video claim.",
+      "url": "https://finance.sina.com.cn/jjxw/2026-08-07/doc-inimnenr0041608.shtml",
+      "personIds": [
+        "wang-xingxing"
+      ]
+    },
+    {
+      "id": "seed-mercor-20b",
+      "source": "forbes",
+      "publishedAt": "2026-07-09T22:19:00.000Z",
+      "titleZh": "福布斯：Mercor在谈200亿美元估值，创始人身价页尚未改",
+      "titleEn": "Forbes: Mercor is in talks at $20 billion, but founder profiles have not moved",
+      "summaryZh": "若成交，三人或到每人约43亿美元；今天福布斯实时页仍按100亿美元估每人22亿美元。",
+      "summaryEn": "If the round closes, each founder could be worth about $4.3 billion; today’s Forbes realtime pages still use $2.2 billion on a $10 billion company.",
+      "url": "https://www.forbes.com/sites/richardnieva/2026/07/09/mercor-fundraise/",
+      "personIds": [
+        "brendan-foody",
+        "adarsh-hiremath",
+        "surya-midha"
+      ]
+    },
+    {
+      "id": "seed-new-fortune-2026",
+      "source": "newfortune",
+      "publishedAt": "2026-06-17T01:08:00.000Z",
+      "titleZh": "新财富500创富榜发布，王兴兴以约126亿元再度上榜",
+      "titleEn": "New Fortune 500 was published; Wang Xingxing returned at about CNY 12.61 billion",
+      "summaryZh": "本页主源是福布斯与胡润；这条只作6月中国创富对照。",
+      "summaryEn": "This page’s main sources are Forbes and Hurun; this item is only a June China cross-check.",
+      "url": "https://www.stcn.com/article/detail/3965440.html",
+      "personIds": [
+        "wang-xingxing"
+      ]
+    },
+    {
+      "id": "seed-mercor-breach",
+      "source": "forbes",
+      "publishedAt": "2026-04-02T12:00:00.000Z",
+      "titleZh": "Mercor承认数据泄露，这是事件不是新的成交估值",
+      "titleEn": "Mercor confirmed a data breach; that is an event, not a new priced valuation",
+      "summaryZh": "Meta随后暂停合作并出现诉讼；福布斯没有因此把公司改成30亿美元。",
+      "summaryEn": "Meta later paused work and lawsuits followed; Forbes did not reprice the company to $3 billion.",
+      "url": "https://fortune.com/2026/04/02/mercor-ai-startup-security-incident-10-billion/",
+      "personIds": [
+        "brendan-foody",
+        "adarsh-hiremath",
+        "surya-midha"
+      ]
+    },
+    {
+      "id": "seed-forbes-annual-2026",
+      "source": "forbes",
+      "publishedAt": "2026-03-10T13:00:00.000Z",
+      "titleZh": "福布斯2026全球亿万富豪榜发布，快照日是3月1日",
+      "titleEn": "Forbes published the 2026 World’s Billionaires list, locked to 1 March",
+      "summaryZh": "正式总榜一年一次；实时人物页是另一张网页，未上市股权常常不改。",
+      "summaryEn": "The official census is yearly; the realtime page is separate, and private-company fortunes often sit still.",
+      "url": "https://www.forbes.com/billionaires/",
+      "personIds": []
+    },
+    {
+      "id": "seed-hurun-global-2026",
+      "source": "hurun",
+      "publishedAt": "2026-03-05T08:00:00.000Z",
+      "titleZh": "胡润发布2026全球富豪榜，财富截止1月15日",
+      "titleEn": "Hurun released the 2026 Global Rich List, with wealth as of 15 January",
+      "summaryZh": "这是全球年榜，不是中国百富榜，也不是每月更新。",
+      "summaryEn": "This is the yearly global list, not the China Rich List, and it is not a monthly update.",
+      "url": "https://hurun.net/zh-CN/Info/Detail?num=58XPLT2JTLMC",
+      "personIds": []
+    }
+  ]
+}

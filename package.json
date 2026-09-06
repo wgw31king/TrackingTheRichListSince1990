@@ -1,0 +1,11 @@
+{
+  "name": "wealth-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local 1990+ rich-list tracker. News refresh writes JSON on this machine.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "refresh": "node server.js --refresh-once"
+  }
+}
