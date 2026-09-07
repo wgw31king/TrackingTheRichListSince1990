@@ -1,67 +1,7 @@
 {
-  "lastRefreshAt": "2026-09-06T15:21:45.124Z",
-  "cutoffAt": "2026-09-06T15:21:45.124Z",
+  "lastRefreshAt": "2026-09-07T02:10:39.522Z",
+  "cutoffAt": "2026-09-07T02:10:39.522Z",
   "items": [
-    {
-      "id": "live-aHR0cHM6Ly93d3cuZm9yYmVz",
-      "source": "forbes",
-      "publishedAt": "2026-09-06T15:21:45.124Z",
-      "fetchedAt": "2026-09-06T15:21:45.124Z",
-      "titleZh": "亿万富豪s",
-      "titleEn": "Billionaires",
-      "summaryZh": "福布斯官方渠道出现这条榜单相关消息，数字仍以成交或年榜为准。",
-      "summaryEn": "Forbes published this list-related item; priced deals and annual lists still govern the numbers.",
-      "url": "https://www.forbes.com/worlds-billionaires/",
-      "personIds": []
-    },
-    {
-      "id": "live-aHR0cHM6Ly93d3cuZm9yYmVz",
-      "source": "forbes",
-      "publishedAt": "2026-09-06T15:21:45.124Z",
-      "fetchedAt": "2026-09-06T15:21:45.124Z",
-      "titleZh": "self-made score",
-      "titleEn": "self-made score",
-      "summaryZh": "福布斯官方渠道出现这条榜单相关消息，数字仍以成交或年榜为准。",
-      "summaryEn": "Forbes published this list-related item; priced deals and annual lists still govern the numbers.",
-      "url": "https://www.forbes.com/sites/gigizamora/2024/10/01/the-2024-forbes-400-self-made-billionaire-score-from-bootstrappers-to-silver-spooners/",
-      "personIds": []
-    },
-    {
-      "id": "live-aHR0cHM6Ly93d3cuZm9yYmVz",
-      "source": "forbes",
-      "publishedAt": "2026-09-06T15:21:45.124Z",
-      "fetchedAt": "2026-09-06T15:21:45.124Z",
-      "titleZh": "Jensen Huang’s net worth Nears $200 Billion After Nvidia Says It Will Acquire Hugging Face",
-      "titleEn": "Jensen Huang’s Net Worth Nears $200 Billion After Nvidia Says It Will Acquire Hugging Face",
-      "summaryZh": "福布斯官方渠道出现这条榜单相关消息，数字仍以成交或年榜为准。",
-      "summaryEn": "Forbes published this list-related item; priced deals and annual lists still govern the numbers.",
-      "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/09/04/jensen-huangs-net-worth-nears-200-billion-after-nvidia-says-it-will-acquire-hugging-face/",
-      "personIds": []
-    },
-    {
-      "id": "live-aHR0cHM6Ly93d3cuZm9yYmVz",
-      "source": "forbes",
-      "publishedAt": "2026-09-06T15:21:45.124Z",
-      "fetchedAt": "2026-09-06T15:21:45.124Z",
-      "titleZh": "self-made Score",
-      "titleEn": "Self-Made Score",
-      "summaryZh": "福布斯官方渠道出现这条榜单相关消息，数字仍以成交或年榜为准。",
-      "summaryEn": "Forbes published this list-related item; priced deals and annual lists still govern the numbers.",
-      "url": "https://www.forbes.com/sites/jonathanponciano/2020/09/08/self-made-score/",
-      "personIds": []
-    },
-    {
-      "id": "live-aHR0cHM6Ly93d3cuZm9yYmVz",
-      "source": "forbes",
-      "publishedAt": "2026-09-06T15:21:45.124Z",
-      "fetchedAt": "2026-09-06T15:21:45.124Z",
-      "titleZh": "America's Richest self-made Women",
-      "titleEn": "America's Richest Self-Made Women",
-      "summaryZh": "福布斯官方渠道出现这条榜单相关消息，数字仍以成交或年榜为准。",
-      "summaryEn": "Forbes published this list-related item; priced deals and annual lists still govern the numbers.",
-      "url": "https://www.forbes.com/self-made-women/",
-      "personIds": []
-    },
     {
       "id": "live-aHR0cHM6Ly93d3cuZm9yYmVz",
       "source": "forbes",
@@ -69,8 +9,8 @@
       "fetchedAt": "2026-09-06T15:21:45.124Z",
       "titleZh": "Forbes 400",
       "titleEn": "Forbes 400",
-      "summaryZh": "福布斯官方渠道出现这条榜单相关消息，数字仍以成交或年榜为准。",
-      "summaryEn": "Forbes published this list-related item; priced deals and annual lists still govern the numbers.",
+      "summaryZh": "《Forbes 400》来自福布斯相关渠道的榜单/身价消息。阅读时请分清：这是年榜快照、实时估值，还是融资传闻；本库只把成交或权威榜单数字写入富豪榜硬字段。若稿件涉及1990年后出生者，可对照本站富豪榜、U30/U40创业榜与观察名单，核对年龄、白手标签与取值日。短视频夸大「三十岁身价几十亿」时，优先查原文是否给出可核验来源，而不是只看标题情绪。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件才写硬数字；融资在谈、媒体传闻先记时间线，不自动改身价。白手/非白手按福布斯或胡润口径标注；冲突时保留来源与取值日。三月、六月、十月会回看福布斯年榜与胡润全球/中国相关榜，校准本条是否仍成立。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件才写硬数字；融资在谈、媒体传闻先记时间线，不自动改身价。白手/非白手按福布斯或胡润口径标注；冲突时保留来源与取值日。三月、六月、十月会回看福布斯年榜与胡润全球/中国相关榜，校准本条是否仍成立。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价",
+      "summaryEn": "“Forbes 400” is a Forbes list/net-worth related item. Separate annual snapshots, realtime marks, and funding rumors; this archive only hard-codes closed deals or authoritative list figures. For people born 1990+, cross-check the wealth roster, U30/U40 founder boards, and watchlist for age, self-made tags, and as-of dates. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the source and as-of date when lists disagree. Reconcile again in Mar/Jun/Oct against Forbes annual and Hurun global/China releases. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the source and as-of date when lists disagree. Reconcile again in Mar/Jun/Oct a",
       "url": "https://www.forbes.com/forbes-400/",
       "personIds": []
     },
@@ -80,8 +20,8 @@
       "publishedAt": "2026-08-07T02:00:00.000Z",
       "titleZh": "宇树科技发行价落地，王兴兴持股市值约183亿元",
       "titleEn": "Unitree’s IPO price is set; Wang Xingxing’s stake is about CNY 18.3 billion",
-      "summaryZh": "发行价150.80元，公司上市市值约610亿元；这是成交口径，不是抖音口播。",
-      "summaryEn": "The issue price is CNY 150.80 and the listing value is about CNY 61 billion; this is a priced deal, not a short-video claim.",
+      "summaryZh": "《宇树科技发行价落地，王兴兴持股市值约183亿元》来自福布斯相关渠道的榜单/身价消息。阅读时请分清：这是年榜快照、实时估值，还是融资传闻；本库只把成交或权威榜单数字写入富豪榜硬字段。若稿件涉及1990年后出生者，可对照本站富豪榜、U30/U40创业榜与观察名单，核对年龄、白手标签与取值日。短视频夸大「三十岁身价几十亿」时，优先查原文是否给出可核验来源，而不是只看标题情绪。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件才写硬数字；融资在谈、媒体传闻先记时间线，不自动改身价。白手/非白手按福布斯或胡润口径标注；冲突时保留来源与取值日。三月、六月、十月会回看福布斯年榜与胡润全球/中国相关榜，校准本条是否仍成立。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件才写硬数字；融资在谈、媒体传闻先记时间线，不自动改身价。白手/非白手按福布斯或胡润口径标注；冲突时保留来源与取值日。三月、六月、十月会回看福布斯年榜与胡润全球/中国相关榜，校准本条是否仍成立。本库只收录约1990年1月1日及以后出生者，用",
+      "summaryEn": "“Unitree’s IPO price is set; Wang Xingxing’s stake is about CNY 18.3 billion” is a Forbes list/net-worth related item. Separate annual snapshots, realtime marks, and funding rumors; this archive only hard-codes closed deals or authoritative list figures. For people born 1990+, cross-check the wealth roster, U30/U40 founder boards, and watchlist for age, self-made tags, and as-of dates. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the source and as-of date when lists disagree. Reconcile again in Mar/Jun/Oct against Forbes annual and Hurun global/China releases. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the source and",
       "url": "https://finance.sina.com.cn/jjxw/2026-08-07/doc-inimnenr0041608.shtml",
       "personIds": [
         "wang-xingxing"
@@ -93,8 +33,8 @@
       "publishedAt": "2026-07-09T22:19:00.000Z",
       "titleZh": "福布斯：Mercor在谈200亿美元估值，创始人身价页尚未改",
       "titleEn": "Forbes: Mercor is in talks at $20 billion, but founder profiles have not moved",
-      "summaryZh": "若成交，三人或到每人约43亿美元；今天福布斯实时页仍按100亿美元估每人22亿美元。",
-      "summaryEn": "If the round closes, each founder could be worth about $4.3 billion; today’s Forbes realtime pages still use $2.2 billion on a $10 billion company.",
+      "summaryZh": "《福布斯：Mercor在谈200亿美元估值，创始人身价页尚未改》来自福布斯相关渠道的榜单/身价消息。阅读时请分清：这是年榜快照、实时估值，还是融资传闻；本库只把成交或权威榜单数字写入富豪榜硬字段。若稿件涉及1990年后出生者，可对照本站富豪榜、U30/U40创业榜与观察名单，核对年龄、白手标签与取值日。短视频夸大「三十岁身价几十亿」时，优先查原文是否给出可核验来源，而不是只看标题情绪。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件才写硬数字；融资在谈、媒体传闻先记时间线，不自动改身价。白手/非白手按福布斯或胡润口径标注；冲突时保留来源与取值日。三月、六月、十月会回看福布斯年榜与胡润全球/中国相关榜，校准本条是否仍成立。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件才写硬数字；融资在谈、媒体传闻先记时间线，不自动改身价。白手/非白手按福布斯或胡润口径标注；冲突时保留来源与取值日。三月、六月、十月会回看福布斯年榜与胡润全球/中国相关榜，校准本条是否仍成立。本库只收录约1990年1月1日及",
+      "summaryEn": "“Forbes: Mercor is in talks at $20 billion, but founder profiles have not moved” is a Forbes list/net-worth related item. Separate annual snapshots, realtime marks, and funding rumors; this archive only hard-codes closed deals or authoritative list figures. For people born 1990+, cross-check the wealth roster, U30/U40 founder boards, and watchlist for age, self-made tags, and as-of dates. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the source and as-of date when lists disagree. Reconcile again in Mar/Jun/Oct against Forbes annual and Hurun global/China releases. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the source ",
       "url": "https://www.forbes.com/sites/richardnieva/2026/07/09/mercor-fundraise/",
       "personIds": [
         "brendan-foody",
@@ -108,8 +48,8 @@
       "publishedAt": "2026-06-17T01:08:00.000Z",
       "titleZh": "新财富500创富榜发布，王兴兴以约126亿元再度上榜",
       "titleEn": "New Fortune 500 was published; Wang Xingxing returned at about CNY 12.61 billion",
-      "summaryZh": "本页主源是福布斯与胡润；这条只作6月中国创富对照。",
-      "summaryEn": "This page’s main sources are Forbes and Hurun; this item is only a June China cross-check.",
+      "summaryZh": "《新财富500创富榜发布，王兴兴以约126亿元再度上榜》来自福布斯相关渠道的榜单/身价消息。阅读时请分清：这是年榜快照、实时估值，还是融资传闻；本库只把成交或权威榜单数字写入富豪榜硬字段。若稿件涉及1990年后出生者，可对照本站富豪榜、U30/U40创业榜与观察名单，核对年龄、白手标签与取值日。短视频夸大「三十岁身价几十亿」时，优先查原文是否给出可核验来源，而不是只看标题情绪。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件才写硬数字；融资在谈、媒体传闻先记时间线，不自动改身价。白手/非白手按福布斯或胡润口径标注；冲突时保留来源与取值日。三月、六月、十月会回看福布斯年榜与胡润全球/中国相关榜，校准本条是否仍成立。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件才写硬数字；融资在谈、媒体传闻先记时间线，不自动改身价。白手/非白手按福布斯或胡润口径标注；冲突时保留来源与取值日。三月、六月、十月会回看福布斯年榜与胡润全球/中国相关榜，校准本条是否仍成立。本库只收录约1990年1月1日及以后出生",
+      "summaryEn": "“New Fortune 500 was published; Wang Xingxing returned at about CNY 12.61 billion” is a Forbes list/net-worth related item. Separate annual snapshots, realtime marks, and funding rumors; this archive only hard-codes closed deals or authoritative list figures. For people born 1990+, cross-check the wealth roster, U30/U40 founder boards, and watchlist for age, self-made tags, and as-of dates. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the source and as-of date when lists disagree. Reconcile again in Mar/Jun/Oct against Forbes annual and Hurun global/China releases. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the sourc",
       "url": "https://www.stcn.com/article/detail/3965440.html",
       "personIds": [
         "wang-xingxing"
@@ -121,8 +61,8 @@
       "publishedAt": "2026-04-02T12:00:00.000Z",
       "titleZh": "Mercor承认数据泄露，这是事件不是新的成交估值",
       "titleEn": "Mercor confirmed a data breach; that is an event, not a new priced valuation",
-      "summaryZh": "Meta随后暂停合作并出现诉讼；福布斯没有因此把公司改成30亿美元。",
-      "summaryEn": "Meta later paused work and lawsuits followed; Forbes did not reprice the company to $3 billion.",
+      "summaryZh": "《Mercor承认数据泄露，这是事件不是新的成交估值》来自福布斯相关渠道的榜单/身价消息。阅读时请分清：这是年榜快照、实时估值，还是融资传闻；本库只把成交或权威榜单数字写入富豪榜硬字段。若稿件涉及1990年后出生者，可对照本站富豪榜、U30/U40创业榜与观察名单，核对年龄、白手标签与取值日。短视频夸大「三十岁身价几十亿」时，优先查原文是否给出可核验来源，而不是只看标题情绪。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件才写硬数字；融资在谈、媒体传闻先记时间线，不自动改身价。白手/非白手按福布斯或胡润口径标注；冲突时保留来源与取值日。三月、六月、十月会回看福布斯年榜与胡润全球/中国相关榜，校准本条是否仍成立。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件才写硬数字；融资在谈、媒体传闻先记时间线，不自动改身价。白手/非白手按福布斯或胡润口径标注；冲突时保留来源与取值日。三月、六月、十月会回看福布斯年榜与胡润全球/中国相关榜，校准本条是否仍成立。本库只收录约1990年1月1日及以后出生者",
+      "summaryEn": "“Mercor confirmed a data breach; that is an event, not a new priced valuation” is a Forbes list/net-worth related item. Separate annual snapshots, realtime marks, and funding rumors; this archive only hard-codes closed deals or authoritative list figures. For people born 1990+, cross-check the wealth roster, U30/U40 founder boards, and watchlist for age, self-made tags, and as-of dates. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the source and as-of date when lists disagree. Reconcile again in Mar/Jun/Oct against Forbes annual and Hurun global/China releases. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the source an",
       "url": "https://fortune.com/2026/04/02/mercor-ai-startup-security-incident-10-billion/",
       "personIds": [
         "brendan-foody",
@@ -136,9 +76,33 @@
       "publishedAt": "2026-03-10T13:00:00.000Z",
       "titleZh": "福布斯2026全球亿万富豪榜发布，快照日是3月1日",
       "titleEn": "Forbes published the 2026 World’s Billionaires list, locked to 1 March",
-      "summaryZh": "正式总榜一年一次；实时人物页是另一张网页，未上市股权常常不改。",
-      "summaryEn": "The official census is yearly; the realtime page is separate, and private-company fortunes often sit still.",
+      "summaryZh": "《福布斯2026全球亿万富豪榜发布，快照日是3月1日》来自福布斯相关渠道的榜单/身价消息。阅读时请分清：这是年榜快照、实时估值，还是融资传闻；本库只把成交或权威榜单数字写入富豪榜硬字段。若稿件涉及1990年后出生者，可对照本站富豪榜、U30/U40创业榜与观察名单，核对年龄、白手标签与取值日。短视频夸大「三十岁身价几十亿」时，优先查原文是否给出可核验来源，而不是只看标题情绪。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件才写硬数字；融资在谈、媒体传闻先记时间线，不自动改身价。白手/非白手按福布斯或胡润口径标注；冲突时保留来源与取值日。三月、六月、十月会回看福布斯年榜与胡润全球/中国相关榜，校准本条是否仍成立。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件才写硬数字；融资在谈、媒体传闻先记时间线，不自动改身价。白手/非白手按福布斯或胡润口径标注；冲突时保留来源与取值日。三月、六月、十月会回看福布斯年榜与胡润全球/中国相关榜，校准本条是否仍成立。本库只收录约1990年1月1日及以后出生者",
+      "summaryEn": "“Forbes published the 2026 World’s Billionaires list, locked to 1 March” is a Forbes list/net-worth related item. Separate annual snapshots, realtime marks, and funding rumors; this archive only hard-codes closed deals or authoritative list figures. For people born 1990+, cross-check the wealth roster, U30/U40 founder boards, and watchlist for age, self-made tags, and as-of dates. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the source and as-of date when lists disagree. Reconcile again in Mar/Jun/Oct against Forbes annual and Hurun global/China releases. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the source and as-o",
       "url": "https://www.forbes.com/billionaires/",
+      "personIds": []
+    },
+    {
+      "id": "seed-forbes-under30-35-2026",
+      "source": "forbes",
+      "publishedAt": "2026-03-10T12:00:00.000Z",
+      "fetchedAt": "2026-09-07T02:13:30.097915Z",
+      "titleZh": "福布斯2026：全球30岁以下亿万富豪创纪录达35人",
+      "titleEn": "Forbes 2026: record 35 billionaires under age 30",
+      "summaryZh": "福布斯世界亿万富豪榜口径下，2026年全球30岁以下亿万富豪达到创纪录的35人，合计身价约924亿美元；其中约12人白手起家、约23人继承。最年轻白手叙事落在Mercor三位22岁联合创始人；继承人仍占多数，包括眼镜、制药、机电等家族。注意：这只是「未满30岁」子集。1990年后出生在2026年大约≤36岁，还应覆盖30–36岁区间；但即便加上这一段，美元亿万富豪仍然极少，远少于全年龄段三千多名。本库富豪榜同时收入福布斯年榜/实时与胡润数字，并单独用创业榜看U30/U40影响力，避免把创业先锋榜误当成财富榜。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件才写硬数字；融资在谈、媒体传闻先记时间线，不自动改身价。白手/非白手按福布斯或胡润口径标注；冲突时保留来源与取值日。三月、六月、十月会回看福布斯年榜与胡润全球/中国相关榜，校准本条是否仍成立。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件才写硬数字；融资在谈、媒体传闻先记时间线，不自动改身价。白手/非白手按福布斯或胡润口径标注；冲突时",
+      "summaryEn": "Forbes’ 2026 World’s Billionaires list includes a record 35 people under 30 (~$92.4B combined), about 12 self-made and 23 heirs. That is only the under-30 slice. Born-1990+ in 2026 reaches about age 36, so ages 30–36 also matter—yet USD billionaires that young remain rare versus 3,000+ billionaires of all ages. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the source and as-of date when lists disagree. Reconcile again in Mar/Jun/Oct against Forbes annual and Hurun global/China releases. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the source and as-of date when lists disagree. Reconcile again in Mar/Jun/Oct against Forb",
+      "url": "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+      "personIds": []
+    },
+    {
+      "id": "seed-hurun-u40-108-2026",
+      "source": "hurun",
+      "publishedAt": "2026-03-10T08:00:00.000Z",
+      "fetchedAt": "2026-09-07T02:13:30.097915Z",
+      "titleZh": "胡润2026全球U40白手起家亿万富豪：共108人，≤35岁约44人",
+      "titleEn": "Hurun Global U40 Self-Made 2026: 108 people; about 44 aged 35 & under",
+      "summaryZh": "胡润研究院发布《2026全球40岁及以下白手起家亿万富豪榜》，全球共108位美元亿万富豪，比上年增加30人；美国50人、中国29人。关键口径：平均年龄36岁；其中44人≤35岁，15人≤30岁，5人≤25岁。榜首是Surge AI的Edwin Chen（38岁，约190亿美元）。对本库的含义：U40里大量37–40岁的人出生于1986–1989年，按「1990年1月1日及以后出生」硬过滤后会被剔除，所以不能把108直接当成1990后人数。真正落在1990后的，大致是≤35岁那一档（约44名白手）再加上部分36岁、以及福布斯under-30继承人；总量是「几十到一百出头」，不是全球三千多名亿万富豪里的大半。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件才写硬数字；融资在谈、媒体传闻先记时间线，不自动改身价。白手/非白手按福布斯或胡润口径标注；冲突时保留来源与取值日。三月、六月、十月会回看福布斯年榜与胡润全球/中国相关榜，校准本条是否仍成立。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件",
+      "summaryEn": "Hurun’s 2026 Global U40 Self-Made Billionaires list counts 108 USD billionaires aged 40 & under (USA 50, China 29). About 44 are 35 & under; 15 are 30 & under. Average age is 36. Many ages 37–40 were born before 1990, so they fail this archive’s 1990-01-01 cutoff. Expect tens to low hundreds of 1990+ USD billionaires after deduping Hurun ≤35 self-made with Forbes under-30 heirs—not thousands. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the source and as-of date when lists disagree. Reconcile again in Mar/Jun/Oct against Forbes annual and Hurun global/China releases. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the sou",
+      "url": "https://www.hurun.net/en-us/info/detail?num=I149SMJVNS8L",
       "personIds": []
     },
     {
@@ -147,8 +111,8 @@
       "publishedAt": "2026-03-05T08:00:00.000Z",
       "titleZh": "胡润发布2026全球富豪榜，财富截止1月15日",
       "titleEn": "Hurun released the 2026 Global Rich List, with wealth as of 15 January",
-      "summaryZh": "这是全球年榜，不是中国百富榜，也不是每月更新。",
-      "summaryEn": "This is the yearly global list, not the China Rich List, and it is not a monthly update.",
+      "summaryZh": "《胡润发布2026全球富豪榜，财富截止1月15日》来自胡润相关渠道的榜单/身价消息。阅读时请分清：这是年榜快照、实时估值，还是融资传闻；本库只把成交或权威榜单数字写入富豪榜硬字段。若稿件涉及1990年后出生者，可对照本站富豪榜、U30/U40创业榜与观察名单，核对年龄、白手标签与取值日。短视频夸大「三十岁身价几十亿」时，优先查原文是否给出可核验来源，而不是只看标题情绪。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件才写硬数字；融资在谈、媒体传闻先记时间线，不自动改身价。白手/非白手按福布斯或胡润口径标注；冲突时保留来源与取值日。三月、六月、十月会回看福布斯年榜与胡润全球/中国相关榜，校准本条是否仍成立。本库只收录约1990年1月1日及以后出生者，用来核对短视频里的年龄与身价说法。有权威榜单或成交文件才写硬数字；融资在谈、媒体传闻先记时间线，不自动改身价。白手/非白手按福布斯或胡润口径标注；冲突时保留来源与取值日。三月、六月、十月会回看福布斯年榜与胡润全球/中国相关榜，校准本条是否仍成立。本库只收录约1990年1月1日及以后出生者，用来",
+      "summaryEn": "“Hurun released the 2026 Global Rich List, with wealth as of 15 January” is a Hurun list/net-worth related item. Separate annual snapshots, realtime marks, and funding rumors; this archive only hard-codes closed deals or authoritative list figures. For people born 1990+, cross-check the wealth roster, U30/U40 founder boards, and watchlist for age, self-made tags, and as-of dates. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the source and as-of date when lists disagree. Reconcile again in Mar/Jun/Oct against Forbes annual and Hurun global/China releases. This archive keeps people born on/after 1990-01-01 to fact-check viral age and net-worth claims. Hard numbers need a closed deal or an authoritative list; talks stay on the timeline. Self-made tags follow Forbes/Hurun wording; keep the source and as-of",
       "url": "https://hurun.net/zh-CN/Info/Detail?num=58XPLT2JTLMC",
       "personIds": []
     }
