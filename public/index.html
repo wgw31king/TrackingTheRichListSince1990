@@ -3,16 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>1990年后富豪追踪</title>
+  <title>U40 富豪与创业追踪</title>
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
   <div class="wrap">
     <header>
-      <h1>1990年后富豪追踪</h1>
-      <p class="lede">A local ledger for people born on/after 1990-01-01 (not “everyone under 40”).</p>
-      <p class="lede">美元亿万富豪本来就少：福布斯under-30约35人；胡润全球U40白手108人，但很多37–40岁=1986–1989生，本库不收。1990后有公开身价的是「几十到一百出头」量级，不是全球三千多名里的大半——名单会继续按榜单补全。</p>
-      <p class="lede">USD billionaires that young are rare. Hurun’s 108 U40 self-made ≠ all born 1990+; ages 37–40 often pre-date 1990. We keep expanding sourced names, not inventing thousands.</p>
+      <h1>U40 富豪与创业追踪</h1>
+      <p class="lede">Track people aged 40 and under: wealth when published, founders even when not yet billionaires.</p>
+      <p class="lede">主口径改为 U40：有公开身价进富豪榜；U30/U40 创业榜可以只是普通先锋（如上市前的王兴兴），不等于亿万富翁。</p>
+      <p class="lede">Sources include Forbes, Hurun, and other authoritative disclosures—not China-only lists.</p>
+      <p class="lede">来源含福布斯、胡润及其他权威披露，不限于中国榜。</p>
+      <div id="stats-box" class="lede"></div>
       <p class="lede" id="counts">加载中…</p>
     </header>
 
@@ -34,32 +36,32 @@
     </section>
 
     <section id="page-wealth" class="hidden">
-      <p class="lede">已核实身价的人，按纸面身价排序。简介约500字。来源含福布斯全球年榜/实时、胡润百富与U40企业家财富、新财富等；1990年后出生。</p>
-      <p class="lede">Published net worth only, sorted high→low. Bios ~500 Chinese chars. Forbes / Hurun / New Fortune; born 1990+.</p>
+      <p class="lede">Published net worth only, sorted high→low; U40 age band; bios ~500 Chinese chars.</p>
+      <p class="lede">只收有公开身价的人，按纸面身价排序；年龄口径 U40；简介约500字。来源含福布斯全球/实时、胡润等。</p>
       <div id="wealth-list"></div>
     </section>
 
     <section id="page-age" class="hidden">
-      <p class="lede">同一批「有身价」的人，按出生日期排序，年轻的在前。与按身价页同一批人，简介同样约500字。</p>
-      <p class="lede">Same wealth roster sorted youngest first. Same ~500-char bios as the wealth page.</p>
+      <p class="lede">Same wealth roster sorted youngest first.</p>
+      <p class="lede">同一批「有身价」的人，按年龄/出生日期，年轻的在前。</p>
       <div id="age-list"></div>
     </section>
 
     <section id="page-u30" class="hidden">
-      <p class="lede">U30 创业专区：不论谁后来更有钱，先记他们做什么（约100–200字），并标预估/对照身价；创业成功≠请假条，也不等于已进富豪榜。</p>
-      <p class="lede">U30 founder board: ~100–200-char bios of what they build, plus estimated NW if known. Entrepreneur success ≠ a published fortune.</p>
+      <p class="lede">U30 founder board: what they build + estimated NW if any; not automatically a billionaire list.</p>
+      <p class="lede">U30 创业专区：先记做什么与预估/对照身价；创业成功≠已经是亿万富翁。</p>
       <div id="u30-list"></div>
     </section>
 
     <section id="page-u40" class="hidden">
-      <p class="lede">U40 创业专区：与 U30 同一套规则；仅保留约1990年后出生者。有权威身价的会对照富豪榜，其余标未公开。</p>
-      <p class="lede">U40 founder board with the same rules; keep ~1990+ births only. Cross-check published wealth when available.</p>
+      <p class="lede">U40 founder board uses the same rule as U30, up to age 40; Wang Xingxing-style pre-IPO names belong here.</p>
+      <p class="lede">U40 创业专区与 U30 同规则，放到40岁；上市前的普通 U40 青年也应在此追踪。</p>
       <div id="u40-list"></div>
     </section>
 
     <section id="page-watch" class="hidden">
-      <p class="lede">尚未归入 U30/U40 专区、或仍待补全的观察项。不是富豪榜。</p>
-      <p class="lede">Residual watch items not yet folded into U30/U40 boards. Not a wealth ranking.</p>
+      <p class="lede">Residual watch items without a clean published fortune yet.</p>
+      <p class="lede">尚未有干净公开身价、仍待补全的观察项。</p>
       <div id="watch-list"></div>
     </section>
   </div>

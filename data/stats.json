@@ -1,0 +1,32 @@
+{
+  "asOfNoteZh": "口径快照约2026年3月前后；福布斯与胡润算法不同，不可简单相加当唯一真理。",
+  "asOfNoteEn": "Snapshot around March 2026; Forbes and Hurun methodologies differ—do not naively add them into one “truth” total.",
+  "under30": {
+    "source": "Forbes World's Billionaires 2026 (under-30 subset)",
+    "sourceUrl": "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+    "totalWithPublishedUsdBillion": 35,
+    "selfMade": 12,
+    "notSelfMade": 23,
+    "noteZh": "福布斯：全球未满30岁、个人身价≥约10亿美元且上榜者共35人。",
+    "noteEn": "Forbes: 35 people under 30 with published ~USD 1B+ fortunes on the World’s Billionaires list."
+  },
+  "under40SelfMadeOnly": {
+    "source": "Hurun Global U40 Self-Made Billionaires 2026",
+    "sourceUrl": "https://www.hurun.net/en-us/info/detail?num=I149SMJVNS8L",
+    "totalSelfMadeUsdBillion": 108,
+    "aged35AndUnder": 44,
+    "aged30AndUnder": 15,
+    "aged25AndUnder": 5,
+    "noteZh": "胡润：全球40岁及以下「白手起家」美元亿万富豪108人（不含继承人专榜）。",
+    "noteEn": "Hurun: 108 self-made USD billionaires aged 40 & under (this Hurun sublist does not rank heirs)."
+  },
+  "under40AllIncludingHeirs": {
+    "officialCombinedTotal": null,
+    "floorSelfMade": 108,
+    "knownUnder30HeirsOnForbes": 23,
+    "noteZh": "目前没有一份与福布斯under-30同样干净的「全球U40含继承人」官方总人数头条；保守下界≈胡润白手108 + 福布斯under-30继承人23，再加30–40岁继承人（未汇总）。",
+    "noteEn": "No single clean Forbes-style headline total for all U40 billionaires including heirs; a conservative floor is Hurun’s 108 self-made plus Forbes’ 23 under-30 heirs, plus uncounted heirs aged 30–40."
+  },
+  "productRuleZh": "本站主口径改为U40：创业榜/观察名单可以不是亿万富翁（如上市前的王兴兴）；富豪榜只收有公开身价者。来源含福布斯、胡润及其他权威披露。",
+  "productRuleEn": "Product rule is now U40: founder/watch boards may be non-billionaires (e.g. Wang Xingxing before IPO); wealth boards require published net worth. Sources include Forbes, Hurun, and other authoritative disclosures."
+}

@@ -12,6 +12,9 @@ let watchlist = [];
 let u30list = [];
 let u40list = [];
 let newsDoc = { items: [] };
+let statsDoc = null;
+
+const MAX_AGE = 40;
 
 function ageOf(iso) {
   const birth = new Date(iso);
@@ -20,6 +23,12 @@ function ageOf(iso) {
   const m = now.getMonth() - birth.getMonth();
   if (m < 0 || (m === 0 && now.getDate() < birth.getDate())) age -= 1;
   return age;
+}
+
+function inU40(person) {
+  if (person.ageOnList != null) return person.ageOnList <= MAX_AGE;
+  if (!person.birthDate) return true;
+  return ageOf(person.birthDate) <= MAX_AGE;
 }
 
 function money(n) {
@@ -179,14 +188,30 @@ function watchCard(person) {
   </article>`;
 }
 
+function renderStats() {
+  const box = document.getElementById("stats-box");
+  if (!box || !statsDoc) return;
+  const u30 = statsDoc.under30 || {};
+  const u40s = statsDoc.under40SelfMadeOnly || {};
+  const all = statsDoc.under40AllIncludingHeirs || {};
+  box.innerHTML = `
+    <p>Global under-30 USD billionaires with published Forbes figures: <strong>${u30.totalWithPublishedUsdBillion}</strong> (self-made ${u30.selfMade}, not self-made ${u30.notSelfMade}).</p>
+    <p>全球30岁以下、福布斯公开美元亿万身价：<strong>${u30.totalWithPublishedUsdBillion}</strong> 人（白手 ${u30.selfMade}，非白手 ${u30.notSelfMade}）。</p>
+    <p>Hurun global self-made USD billionaires aged 40 & under: <strong>${u40s.totalSelfMadeUsdBillion}</strong> (≤30: ${u40s.aged30AndUnder}; ≤35: ${u40s.aged35AndUnder}).</p>
+    <p>胡润全球40岁及以下白手美元亿万富豪：<strong>${u40s.totalSelfMadeUsdBillion}</strong> 人（其中≤30约 ${u40s.aged30AndUnder}，≤35约 ${u40s.aged35AndUnder}）。</p>
+    <p>${all.noteEn || ""}</p>
+    <p>${all.noteZh || ""}</p>
+  `;
+}
+
 function renderPeople() {
   const byWealth = people
     .slice()
-    .filter((p) => p.netWorthUsd != null)
+    .filter((p) => p.netWorthUsd != null && inU40(p))
     .sort((a, b) => b.netWorthUsd - a.netWorthUsd);
   const byAge = people
     .slice()
-    .filter((p) => p.netWorthUsd != null)
+    .filter((p) => p.netWorthUsd != null && inU40(p))
     .sort((a, b) => String(b.birthDate).localeCompare(String(a.birthDate)));
   document.getElementById("wealth-list").innerHTML = byWealth.map(personCard).join("");
   document.getElementById("age-list").innerHTML = byAge.map(personCard).join("");
@@ -206,27 +231,30 @@ function renderPeople() {
     .map(watchCard)
     .join("");
   document.getElementById("counts").innerHTML =
-    `富豪榜 ${byWealth.length} · U30 ${u30list.length} · U40 ${u40list.length} · 观察 ${watchlist.length}<br/>Wealth ${byWealth.length} · U30 ${u30list.length} · U40 ${u40list.length} · Watch ${watchlist.length}`;
+    `Local U40 wealth roster ${byWealth.length} · U30 founders ${u30list.length} · U40 founders ${u40list.length} · Watch ${watchlist.length}<br/>本地U40富豪榜 ${byWealth.length} · 创业U30 ${u30list.length} · 创业U40 ${u40list.length} · 观察 ${watchlist.length}`;
 }
 
 async function loadAll() {
-  const [p, w, n, u30, u40] = await Promise.all([
+  const [p, w, n, u30, u40, st] = await Promise.all([
     fetch("/api/people"),
     fetch("/api/watchlist"),
     fetch("/api/news"),
     fetch("/api/u30"),
-    fetch("/api/u40")
+    fetch("/api/u40"),
+    fetch("/api/stats")
   ]);
   people = (await p.json()).people || [];
   watchlist = (await w.json()).watchlist || [];
   newsDoc = await n.json();
   u30list = (await u30.json()).u30 || [];
   u40list = (await u40.json()).u40 || [];
+  statsDoc = await st.json();
+  renderStats();
   renderPeople();
   renderNews();
   if (newsDoc.lastRefreshAt) {
     document.getElementById("news-status").innerHTML =
-      `上次刷新：${new Date(newsDoc.lastRefreshAt).toLocaleString()}<br/>Last refresh: ${new Date(newsDoc.lastRefreshAt).toLocaleString()}`;
+      `Last refresh: ${new Date(newsDoc.lastRefreshAt).toLocaleString()}<br/>上次刷新：${new Date(newsDoc.lastRefreshAt).toLocaleString()}`;
   }
 }
 
