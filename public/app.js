@@ -204,17 +204,89 @@ function renderStats() {
   `;
 }
 
+function splitWealthRoster(list, secondaryCompare) {
+  const selfMade = [];
+  const notSelf = [];
+  const unverified = [];
+  list.forEach((p) => {
+    if (p.selfMade === "self_made") selfMade.push(p);
+    else if (p.selfMade === "not") notSelf.push(p);
+    else unverified.push(p);
+  });
+  selfMade.sort(secondaryCompare);
+  notSelf.sort(secondaryCompare);
+  unverified.sort(secondaryCompare);
+  return { selfMade, notSelf, unverified };
+}
+
+function wealthSectionsHtml(groups, secondaryLabelZh, secondaryLabelEn) {
+  const parts = [];
+  const blocks = [
+    {
+      key: "self",
+      rows: groups.selfMade,
+      titleZh: `白手起家 · ${groups.selfMade.length} 人`,
+      titleEn: `Self-made · ${groups.selfMade.length}`
+    },
+    {
+      key: "not",
+      rows: groups.notSelf,
+      titleZh: `非白手起家 · ${groups.notSelf.length} 人`,
+      titleEn: `Not self-made · ${groups.notSelf.length}`
+    },
+    {
+      key: "wait",
+      rows: groups.unverified,
+      titleZh: `待核实 · ${groups.unverified.length} 人`,
+      titleEn: `Unverified · ${groups.unverified.length}`
+    }
+  ];
+  blocks.forEach((block) => {
+    if (!block.rows.length) return;
+    parts.push(
+      `<div class="group-head">
+        <h3>${block.titleZh}</h3>
+        <p class="en">${block.titleEn} · ${secondaryLabelEn}</p>
+        <p>${secondaryLabelZh}</p>
+      </div>`
+    );
+    parts.push(...block.rows.map(personCard));
+  });
+  return parts.join("");
+}
+
 function renderPeople() {
-  const byWealth = people
-    .slice()
-    .filter((p) => p.netWorthUsd != null && inU40(p))
-    .sort((a, b) => b.netWorthUsd - a.netWorthUsd);
-  const byAge = people
-    .slice()
-    .filter((p) => p.netWorthUsd != null && inU40(p))
-    .sort((a, b) => String(b.birthDate).localeCompare(String(a.birthDate)));
-  document.getElementById("wealth-list").innerHTML = byWealth.map(personCard).join("");
-  document.getElementById("age-list").innerHTML = byAge.map(personCard).join("");
+  const roster = people.filter((p) => p.netWorthUsd != null && inU40(p));
+  const byWealthCmp = (a, b) => b.netWorthUsd - a.netWorthUsd;
+  const byAgeCmp = (a, b) => String(b.birthDate).localeCompare(String(a.birthDate));
+  const wealthGroups = splitWealthRoster(roster, byWealthCmp);
+  const ageGroups = splitWealthRoster(roster, byAgeCmp);
+
+  const selfN = wealthGroups.selfMade.length;
+  const notN = wealthGroups.notSelf.length;
+  const waitN = wealthGroups.unverified.length;
+  const splitText =
+    `Self-made ${selfN} · Not self-made ${notN}` +
+    (waitN ? ` · Unverified ${waitN}` : "") +
+    `<br/>白手起家 ${selfN} 人 · 非白手起家 ${notN} 人` +
+    (waitN ? ` · 待核实 ${waitN} 人` : "") +
+    ` · 合计 ${roster.length} 人`;
+
+  const wealthSplit = document.getElementById("wealth-split");
+  const ageSplit = document.getElementById("age-split");
+  if (wealthSplit) wealthSplit.innerHTML = splitText;
+  if (ageSplit) ageSplit.innerHTML = splitText;
+
+  document.getElementById("wealth-list").innerHTML = wealthSectionsHtml(
+    wealthGroups,
+    "组内按身价从高到低。",
+    "Within group: net worth high→low."
+  );
+  document.getElementById("age-list").innerHTML = wealthSectionsHtml(
+    ageGroups,
+    "组内按年龄，年轻在前。",
+    "Within group: youngest first."
+  );
   document.getElementById("u30-list").innerHTML = u30list
     .slice()
     .sort((a, b) => (a.ageOnList || 99) - (b.ageOnList || 99))
@@ -231,7 +303,12 @@ function renderPeople() {
     .map(watchCard)
     .join("");
   document.getElementById("counts").innerHTML =
-    `Local U40 wealth roster ${byWealth.length} · U30 founders ${u30list.length} · U40 founders ${u40list.length} · Watch ${watchlist.length}<br/>本地U40富豪榜 ${byWealth.length} · 创业U30 ${u30list.length} · 创业U40 ${u40list.length} · 观察 ${watchlist.length}`;
+    `Local U40 wealth ${roster.length} (self-made ${selfN} / not ${notN}` +
+    (waitN ? ` / unverified ${waitN}` : "") +
+    `) · U30 ${u30list.length} · U40 ${u40list.length} · Watch ${watchlist.length}` +
+    `<br/>本地U40富豪榜 ${roster.length}（白手 ${selfN} / 非白手 ${notN}` +
+    (waitN ? ` / 待核实 ${waitN}` : "") +
+    `）· 创业U30 ${u30list.length} · 创业U40 ${u40list.length} · 观察 ${watchlist.length}`;
 }
 
 async function loadAll() {

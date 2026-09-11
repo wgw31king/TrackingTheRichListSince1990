@@ -94,6 +94,19 @@ nav button.active {
 .tag.wait { color: var(--wait); border-color: #e2d7a8; }
 .tag.src { color: var(--accent); }
 
+.group-head {
+  margin: 28px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+.group-head:first-child { margin-top: 8px; }
+.group-head h3 {
+  margin: 0 0 4px;
+  font-size: 18px;
+  font-weight: 650;
+}
+.group-head p { margin: 0; font-size: 13px; color: var(--muted); }
+
 .amount { font-size: 20px; margin: 8px 0 2px; }
 .delta { font-size: 14px; color: var(--muted); }
 .delta.up { color: var(--self); }
